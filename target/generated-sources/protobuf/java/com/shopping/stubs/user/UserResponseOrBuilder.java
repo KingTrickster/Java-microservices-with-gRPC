@@ -53,4 +53,10 @@ public interface UserResponseOrBuilder extends
    * @return The gender.
    */
   com.shopping.stubs.user.Gender getGender();
+
+  /**
+   * <code>int32 no_of_orders = 6;</code>
+   * @return The noOfOrders.
+   */
+  int getNoOfOrders();
 }

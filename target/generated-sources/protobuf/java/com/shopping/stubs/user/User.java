@@ -34,15 +34,16 @@ public final class User {
   static {
     java.lang.String[] descriptorData = {
       "\n\nuser.proto\022\027com.shopping.stubs.user\"\037\n" +
-      "\013UserRequest\022\020\n\010username\030\001 \001(\t\"x\n\014UserRe" +
-      "sponse\022\n\n\002id\030\001 \001(\005\022\020\n\010username\030\002 \001(\t\022\014\n\004" +
-      "name\030\003 \001(\t\022\013\n\003age\030\004 \001(\005\022/\n\006gender\030\005 \001(\0162" +
-      "\037.com.shopping.stubs.user.Gender*)\n\006Gend" +
-      "er\022\010\n\004MALE\020\000\022\n\n\006FEMALE\020\001\022\t\n\005OTHER\020\0022l\n\013U" +
-      "serService\022]\n\016getUserDetails\022$.com.shopp" +
-      "ing.stubs.user.UserRequest\032%.com.shoppin" +
-      "g.stubs.user.UserResponseB\033\n\027com.shoppin" +
-      "g.stubs.userP\001b\006proto3"
+      "\013UserRequest\022\020\n\010username\030\001 \001(\t\"\216\001\n\014UserR" +
+      "esponse\022\n\n\002id\030\001 \001(\005\022\020\n\010username\030\002 \001(\t\022\014\n" +
+      "\004name\030\003 \001(\t\022\013\n\003age\030\004 \001(\005\022/\n\006gender\030\005 \001(\016" +
+      "2\037.com.shopping.stubs.user.Gender\022\024\n\014no_" +
+      "of_orders\030\006 \001(\005*)\n\006Gender\022\010\n\004MALE\020\000\022\n\n\006F" +
+      "EMALE\020\001\022\t\n\005OTHER\020\0022l\n\013UserService\022]\n\016get" +
+      "UserDetails\022$.com.shopping.stubs.user.Us" +
+      "erRequest\032%.com.shopping.stubs.user.User" +
+      "ResponseB\033\n\027com.shopping.stubs.userP\001b\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -59,7 +60,7 @@ public final class User {
     internal_static_com_shopping_stubs_user_UserResponse_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_com_shopping_stubs_user_UserResponse_descriptor,
-        new java.lang.String[] { "Id", "Username", "Name", "Age", "Gender", });
+        new java.lang.String[] { "Id", "Username", "Name", "Age", "Gender", "NoOfOrders", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)
